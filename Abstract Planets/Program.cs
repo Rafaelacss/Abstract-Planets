@@ -10,6 +10,7 @@ namespace Abstract_Planets
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
