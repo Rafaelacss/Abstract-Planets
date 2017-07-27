@@ -107,8 +107,6 @@ namespace Abstract_Planets
             this._mass = mass;
         }
 
-
-
         //Public Methods -----------
         public override string ToString()
         {
