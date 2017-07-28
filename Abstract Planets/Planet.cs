@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 /*
  * Name: Rafaela Silveira
- * Date: July 27, 2017
+ * Date: July 28, 2017
  * Description: Abstract class Planet
- * Version: 0.1
+ * Version: 0.2
  */
 
 namespace Abstract_Planets
