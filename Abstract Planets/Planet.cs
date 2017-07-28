@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Name: Rafaela Silveira
+ * Date: July 27, 2017
+ * Description: Abstract class Planet
+ * Version: 0.1
+ */
+
 namespace Abstract_Planets
 {
     /// <summary>

@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 /*
  * Name: Rafaela Silveira
  * Date: July 28, 2017
- * Description: TerrestrialPlanet subclass of Planet class.
- * Version: 0.3
+ * Description: TerrestrialPlanet subclass of Planet class withBIHasMoons and IHabitable interfaces.
+ * Version: 0.4
  */
 
 namespace Abstract_Planets
 {
-    class TerrestrialPlanet : Planet
+    class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
-        // Private instance variable
+        // Private instance variable -----------
         private bool _oxygen;
 
-        // Constructor
+        // Constructor ---------------
         /// <summary>
         /// Main constructor that takes four parameters (string name, double diameter, double mass, bool oxygen)
         /// </summary>
@@ -31,7 +31,7 @@ namespace Abstract_Planets
             this._oxygen = oxygen;
         }
 
-        // Public Methods
+        // Public Methods ----------------------------
         // HasMoons method - returns true if the planet has moons
         public bool HasMoons()
         {
