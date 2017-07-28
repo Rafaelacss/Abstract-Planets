@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 /*
  * Name: Rafaela Silveira
- * Date: July 27, 2017
- * Description: subclass GiantPlanet creation
- * Version: 0.1
+ * Date: July 28, 2017
+ * Description: subclass GiantPlanet with IHasMoons and IHasRings interfaces
+ * Version: 0.2
  */
 namespace Abstract_Planets
 {
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         // Private Instance Variables -------------
         private string _type;
@@ -63,7 +63,5 @@ namespace Abstract_Planets
                 return false;
             }
         }
-
-
     }
 }
