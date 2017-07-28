@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Rafaela Silveira
  * Date: July 28, 2017
  * Description: TerrestrialPlanet subclass of Planet class.
- * Version: 0.2
+ * Version: 0.3
  */
 
 namespace Abstract_Planets
@@ -31,5 +31,32 @@ namespace Abstract_Planets
             this._oxygen = oxygen;
         }
 
+        // Public Methods
+        // HasMoons method - returns true if the planet has moons
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        // Habitable method - returns true if the planet has oxygen
+        public bool Habitable()
+        {
+            if (_oxygen)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
