@@ -117,7 +117,13 @@ namespace Abstract_Planets
         //Public Methods -----------
         public override string ToString()
         {
-            return base.ToString();
+            string outputString = "";
+            outputString += "===========================================================\n";
+            outputString += "Name: " + this.Name + "\n";
+            outputString += "Diameter: " + this.Diameter + "\n";
+            outputString += "Mass: " + this.Mass + "\n";
+            outputString += "===========================================================\n";
+            return outputString;
         }
 
     }
